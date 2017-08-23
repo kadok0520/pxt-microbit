@@ -18,3 +18,5 @@ $ docker run -d -p 80:80 --name pxt-microbit01 kadok0520/pxt-microbit
 
 3. open your browser  
 http://your_ip:80
+
+# You can connect any machine to this server to use this application
