@@ -1,8 +1,7 @@
 FROM node:alpine
 MAINTAINER Hong-Da, Ke 
 
-RUN apk add --no-cache git \
-    && cd /root \
+RUN cd /root \
     && mkdir -p pxt-microbit \
     && cd pxt-microbit \
     && npm install -g pxt \
