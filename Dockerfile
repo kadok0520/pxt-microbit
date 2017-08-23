@@ -1,5 +1,5 @@
 FROM node:alpine
-MAINTAINER kadok0520(big mouse)gmail(dot)com
+MAINTAINER Hong-Da, Ke 
 
 RUN apk add --no-cache git \
     && cd /root \
