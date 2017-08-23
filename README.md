@@ -10,10 +10,10 @@ https://hub.docker.com/r/kadok0520/pxt-microbit/
 
 
 # step:
-1. pull image  
+1. pull image  下載映像檔
 $ docker pull kadok0520/pxt-microbit
 
-2. run  
+2. run  執行
 $ docker run -d -p 80:80 --name pxt-microbit01 kadok0520/pxt-microbit
 
 3. open your browser  
