@@ -9,7 +9,7 @@ http://takafuminaka.blogspot.tw/2017/04/chibibit-microbitpxtmicrosoft-make-code.
 https://hub.docker.com/r/kadok0520/pxt-microbit/
 
 
-#step:
+# step:
 1. pull image  
 $ docker pull kadok0520/pxt-microbit
 
