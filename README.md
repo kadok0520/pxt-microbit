@@ -1,13 +1,11 @@
 # pxt-microbit
-from：
-
+# from：
 https://makecode.microbit.org/
 https://github.com/Microsoft/pxt-microbit
 https://www.npmjs.com/package/pxt-microbit
 http://takafuminaka.blogspot.tw/2017/04/chibibit-microbitpxtmicrosoft-make-code.html (日文)
 
-dockerhub
-
+# dockerhub
 https://hub.docker.com/r/kadok0520/pxt-microbit/
 
 
