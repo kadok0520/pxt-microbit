@@ -24,5 +24,5 @@ http://your_server_ip:80
 # You can connect any machine to this server to use this application
 架設的機器可以當server來使用
 
-# Every client needs about 10 MB ram memory
-每個客戶端大約使用10MB的記憶體
+# Every client needs about 70 MB ram memory
+每個客戶端大約使用70MB的記憶體
