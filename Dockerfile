@@ -1,9 +1,8 @@
 FROM node:alpine
 MAINTAINER Hong-Da, Ke 
 
-RUN cd /root \
-    && mkdir -p pxt-microbit \
-    && cd pxt-microbit \
+RUN mkdir -p /root/pxt-microbit \
+    && cd /root/pxt-microbit \
     && npm install -g pxt \
     && pxt target microbit
 
