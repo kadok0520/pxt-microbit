@@ -6,7 +6,7 @@ RUN mkdir -p /root/pxt-microbit \
     && npm install -g pxt \
     && pxt target microbit
 
-EXPOSE 80
+EXPOSE 80 3233
 
 WORKDIR /root/pxt-microbit
 
