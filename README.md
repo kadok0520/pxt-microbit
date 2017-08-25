@@ -1,18 +1,18 @@
 # pxt-microbit offical site by Microsoft
 https://makecode.microbit.org/
 
-# from：
+# From：
 https://github.com/Microsoft/pxt-microbit
 https://www.npmjs.com/package/pxt-microbit
 http://takafuminaka.blogspot.tw/2017/04/chibibit-microbitpxtmicrosoft-make-code.html (Japanese)
 
-# dockerhub:
+# Dockerhub:
 https://hub.docker.com/r/kadok0520/pxt-microbit/
 
-# my note
+# My Note
 https://sites.google.com/site/seleniumwangzhanpachong/00pxtmicrobit
 
-# step:
+# Step:
 1. pull image  下載映像檔
 $ docker pull kadok0520/pxt-microbit
 
