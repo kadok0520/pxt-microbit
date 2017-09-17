@@ -1,8 +1,7 @@
 FROM node:alpine
 MAINTAINER Hong-Da, Ke 
 
-RUN apk update && apk upgrade \
-    && apk add --no-cache git \
+RUN apk add --no-cache git \
     && cd /root \
     && git clone https://github.com/microsoft/pxt-microbit \
     && cd /root/pxt-microbit \
