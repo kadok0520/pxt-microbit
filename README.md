@@ -23,6 +23,6 @@ $ docker run -d -p 80:80 --name pxt-microbit01 kadok0520/pxt-microbit
 http://your_docker_server_ip:80
 
 
-# This image not only online editor by yourself but alse make a pxt server
+# The erection of the machine can be used not only as an online editor for personal use, but also as a server
 架設的機器不但可以做為個人使用的線上編輯器，而且也可以用來當作server來使用
 
