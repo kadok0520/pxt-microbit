@@ -11,7 +11,7 @@ RUN echo "**** install Python ****" && \
     pip3 install --no-cache --upgrade pip setuptools wheel && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
     
-RUN echo "**** install Microsoft MakeCode ****" && \
+RUN echo "**** install Microsoft MakeCode ****" \
     && mkdir -p /root/pxt-microbit \
     && cd /root/pxt-microbit \
     && npm install -g pxt \
