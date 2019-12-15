@@ -1,6 +1,9 @@
 FROM node:alpine
 MAINTAINER Hong-Da, Ke 
 
+RUN apk update \
+    && apk upgrade 
+
 RUN echo "**** install Python ****" && \
     apk add --no-cache python3 && \
     if [ ! -e /usr/bin/python ]; then ln -sf python3 /usr/bin/python ; fi && \
