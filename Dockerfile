@@ -5,7 +5,7 @@ RUN apk update \
     && apk upgrade 
     
 RUN npm install -g npm \
-    && npm update \
+    && npm update
 
 RUN echo "**** install Python ****" && \
     apk add --no-cache python3 && \
